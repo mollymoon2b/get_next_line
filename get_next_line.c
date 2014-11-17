@@ -53,7 +53,7 @@ int	get_next_line(int fd, char **line)
 	if (ret == 0 && ft_strchr(tmp, '\n') == NULL)
 	{
 		*line = tmp;
-		tmp == NULL;
+		tmp = NULL;
 		return (0);
 	}
 	ft_get2(line, &tmp);
